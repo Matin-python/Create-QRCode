@@ -30,7 +30,7 @@ qr-code-generator/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Matin-python/qr-code-generator.git
+git clone https://github.com/Matin-python/Create-QRCode.git
 cd qr-code-generator
 ```
 
