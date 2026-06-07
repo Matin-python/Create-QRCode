@@ -19,7 +19,7 @@ A simple Python application that generates a QR code from a URL and saves it as 
 ```text
 qr-code-generator/
 │
-├── main.py
+├── QRCode.py
 ├── requirements.txt
 ├── README.md
 └── LICENSE
@@ -42,7 +42,7 @@ pip install qrcode[pil]
 
 ## Usage
 
-Edit the `data` variable in `main.py`:
+Edit the `data` variable in `QRCode.py`:
 
 ```python
 data = "https://github.com/Matin-python/"
@@ -51,7 +51,7 @@ data = "https://github.com/Matin-python/"
 Run the application:
 
 ```bash
-python main.py
+python QRCode.py
 ```
 
 The program will:
