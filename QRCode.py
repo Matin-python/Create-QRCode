@@ -5,8 +5,6 @@ def main():
     # data = "SMSTO:+989123456789: Hi, How are you doing?"
 
     qr = qrcode.make(data)
-    # qr = qrcode.make(data)
-
 
     qr.save("QR Code Output.png")
     qr.show()
